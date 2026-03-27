@@ -8,7 +8,6 @@ Start a learning session and follow the steps below in order.
 
 3. If `Target Topic` is specified and non-empty:
    - Read the target topic's `LEARNING_PLAN.md`.
-   - Read the target topic's `PROGRESS.md` if it exists.
    - Summarize the previous session state in 1-2 sentences and share it with the user.
    - Ask the user whether they want to continue from the previous session or start a new task.
    - Do not proceed until the user confirms.
@@ -19,7 +18,7 @@ Start a learning session and follow the steps below in order.
    - If either file does not exist, propose creating it.
    - Check whether task directories exist for that topic.
    - If no suitable task directory exists, propose creating a new one using a format like `01_task_name`.
-   - If the task includes written-response questions, create a Markdown file that the user can fill in with their answers.
+   - If the task includes written-response questions, create a `REPORT.md` that the user can fill in with their answers.
 
 ## Constraints
 
@@ -28,6 +27,18 @@ Start a learning session and follow the steps below in order.
 - Do not provide complete solutions or model answers.
 - Always read `_session/current_session.md` first.
 - If information is missing, ask the user before creating or changing files.
+
+## Learning plan template
+
+```
+# {topic_name}
+
+## Phase NN: {phase_title}
+
+- [ ] 01. Specific task 1
+- [ ] 02. Specific task 2
+- [ ] 03. Specific task 3
+```
 
 ## Task Template
 

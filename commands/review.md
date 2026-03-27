@@ -30,7 +30,7 @@ If no arguments are provided, ask the user to "Please paste the code or explanat
 
 5. Create a review file at `{topic}/00_reviews/YYYYMMDD_NN_task.md`
    (Follow the template, write observations and questions without code)
-6. Add one row to the evaluation table in `{topic}/PROGRESS.md` and update trend analysis
+6. Add one row to the evaluation table in `{topic}/LERNMING_PLAN.md` and update trend analysis
 7. Update `_session/current_session.md`:
    - Status: Review Complete
    - Record recent evaluation summary

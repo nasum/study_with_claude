@@ -1,4 +1,4 @@
-Adaptively determine the next task based on PROGRESS.md evaluation and generate TASK.md. Execute the following steps in order.
+Adaptively determine the next task based on LEARNING_PLAN.md evaluation and generate TASK.md. Execute the following steps in order.
 
 ## Steps
 
@@ -7,7 +7,7 @@ Adaptively determine the next task based on PROGRESS.md evaluation and generate 
 
    Instructions for the general-purpose agent:
    ```
-   Read {topic}/PROGRESS.md and all review files under {topic}/00_reviews/,
+   Read {topic}/LEARNING_PLAN.md and all review files under {topic}/00_reviews/,
    then report the following 3 points in 200 characters or less:
 
    1. [Strengths] Concepts/patterns that repeatedly received high evaluations
